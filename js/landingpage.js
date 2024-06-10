@@ -52,3 +52,8 @@ window.onclick = function(event) {
       document.getElementById('customModal').style.display = 'none';
   }
 };
+
+function toggleMenu() {
+  const menu = document.querySelector('.menu');
+  menu.classList.toggle('show');
+}
